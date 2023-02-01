@@ -20,7 +20,7 @@ Then, an .exe file will appear. To open the game on your command prompt, you can
 
 ## User Manual
 
-Compile the file as instrcuted. After you have opened the main.cpp file on command prompt, the game can be played.
+Compile the file as instrusted. After you have opened the main.cpp file on command prompt, the game can be played.
 
 ## Progress Log
 
