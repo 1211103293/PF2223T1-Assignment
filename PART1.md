@@ -36,10 +36,6 @@ Describe the additional features that has been implemented.
 
 ## Contributions
 
-List down the contribution of each group members.
-
-For example:
-
 ### Farah Kamila
 
 1. Default settings display
