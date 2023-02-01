@@ -2,7 +2,7 @@
 
 ## Video Demo
 
-Please provide the YouTube link to your [Video Demo](https://youtu.be/Wc5gueZNTnw).
+Link for the [Video Demo](https://youtu.be/Wc5gueZNTnw).
 
 ## Minimum Requirements
 
@@ -32,7 +32,7 @@ List all the features not yet done. Remove this section if there is no incomplet
 
 Describe the additional features that has been implemented.
 
-1. No additional features have been implemented yet.
+> No additional features have been implemented yet.
 
 ## Contributions
 
@@ -48,8 +48,8 @@ For example:
 ### Sherene Juanita
 
 1. Randomly generated game board
-2. Alien and zombie attributes
-3. Alien and zombie basic movements
+2. Initial position of alien on the board
+3. Zombie basic movements
 
 ### Hasya Maisarah
 
@@ -57,6 +57,8 @@ For example:
 
 ## Problems Encountered & Solutions
 
-1. Settings: making the customizable settings accept only odd numbers for the board rows and columns.
-Solution: Creating a function to callback and check on the inputto ensure the % of the number does not equal to zero.
-2. Board game:
+1. Settings: Making the customizable settings accept only odd numbers for the board rows and columns.
+Solution: Created a function to callback and check on the input to ensure the remainder of the number when divided by 2 does not equal to zero.
+
+2. Board game: Input q is supposed to exit the game but instead it made the zombies move.
+Solution: Changed the ouput command to "Enter q to move the zombies arund." 

@@ -1,26 +1,26 @@
 # Alien vs. Zombie
 
-Please introduce the game here.
+Alien vs Zombie is a text based game which requires strategic thinking skills to win. The player will play as alien, and they will have to plan a path on the game's board in order to defeat the zombies and win the game.
 
-You may add one signature screenshot of your program here or above the title. Check out [this tutorial](https://www.digitalocean.com/community/tutorials/markdown-markdown-images) to learn how to do it.
-
-Please provide the YouTube link to your [Video Demo](https://youtube.com).
+YouTube link to your [Video Demo](https://youtu.be/Wc5gueZNTnw).
 
 ## Compilation Instructions
 
-Provide instructions on how to compile your program, especially when it is non-trivial.
-
-For example:
+After downloading the files, on your command prompt, put in the following input:
 
 ```
-g++ main.cpp folder1\code.cpp folder2\code.cpp ......
+g++ main.cpp -o main
+```
+
+Then, an .exe file will appear. To open the game on yout command prompt, you can either click on the .exe file or put in the following command:
+
+```
+./main.exe
 ```
 
 ## User Manual
 
-Please provide the user manual on how to use your program.
-
-Please DO NOT change the Progress Log below. Leave it as it is.
+Download the main.cpp file and pf folder. Once downloaded, open the compile the file as explained earlier and the game can be played.
 
 ## Progress Log
 
@@ -31,8 +31,8 @@ Please DO NOT change the Progress Log below. Leave it as it is.
 
 Please replace the following with your group members' names. 
 
-- Tony Stark
-- Steve Rogers
-- Dr. Strange
+- Farah Kamila binti Yahya
+- Sherene Juanita A/P John Benedict
+- Hasya Maisarah binti Hazizi
 
 
