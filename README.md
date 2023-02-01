@@ -29,8 +29,6 @@ Download the main.cpp file and pf folder. Once downloaded, open the compile the 
 
 ## Contributors
 
-Please replace the following with your group members' names. 
-
 - Farah Kamila binti Yahya
 - Sherene Juanita A/P John Benedict
 - Hasya Maisarah binti Hazizi
