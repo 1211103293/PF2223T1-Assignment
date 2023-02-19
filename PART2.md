@@ -2,7 +2,7 @@
 
 ## Video Demo
 
-YouTube link to your [Video Demo](https://youtu.be/6YP9L1vuIPg).
+YouTube link to the [Video Demo](https://youtu.be/6YP9L1vuIPg).
 
 ## Minimum Requirements
 
@@ -33,10 +33,6 @@ List all the features completed.
 > There are no additional features
 
 ## Contributions
-
-List down the contribution of each group members.
-
-For example:
 
 ### FARAH KAMILA
 
