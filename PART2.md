@@ -2,7 +2,7 @@
 
 ## Video Demo
 
-Please provide the YouTube link to your [Video Demo](https://youtube.com).
+YouTube link to your [Video Demo](https://youtu.be/6YP9L1vuIPg).
 
 ## Minimum Requirements
 
@@ -25,7 +25,8 @@ List all the features completed.
 
 ## To Do
 
-1. Random objects appear under the rock
+1. Making random objects appear under the rock
+2. Changing the zombies symbol on the board from 'Z' to digit values
 
 ## Additional Features
 
@@ -67,4 +68,38 @@ For example:
 
 ## Problems Encountered & Solutions
 
-1. 
+1. Settings: The customizable settings would accept even numbers for the board rows and columns.
+Solution: Created a function to call back and check on the input to ensure the remainder of the number when divided by 2 does not equal to zero.
+
+2. Settings and game board: The game board did not change according to the customised settings.
+Solution: Pass by refrence the parameters in displayMainMenu so that the parameters correspond with what had been input.
+
+3. Game board: Borders would not align with the lines and coordinates did not show on the game board.
+Solution: Included code in the displayMap function to output borders using setw() function to align the rows and lines and added an ouput that would correctly show the game board coordinates.
+
+4. Update alien trail: The trail would not change to random objects.
+Solution: Added a function to randomise the objects according to the trail left behind using rand()% function and object array.
+
+5. Alien attack zombie: Alien would not attack nearest zombie only.
+Solution: Added the distanceFormula function to calculate the zombie with the closest distance to the alien on the board and attack the zombie as in the zombie array.
+
+6. Zombie condition: The zombie condition would not update after alien attack.
+Solution: According to the zombieArray in the zombieIndex (to know each zombie on the board), added the update in the function. Still a bit buggy.
+
+7. Alien and zombie movement: Couldn't figure out how to get the zombie and alien to move.
+Solution: Added boolean functions with the movemet conditions.
+
+8. Alien and zombie stats: The stats would not update according to the damage inflicted.
+Solution: Added new variable to replace the old variables and values, but still buggy.
+
+9. Zombie attack range: Didn't know how to check if alien was in the zombie range.
+Solution: Added a zombieRangeAttack function that checks if the alien's position on the board is within the range of the zombie's randomly allocated range attack value.
+
+10. Game logic: Was not sure how to check if the game was still in play or not.
+Solution: Added a boolean variable and a while loop in the main function.
+
+11. Save and load file: Didn't know how to use pointers to store the game file's data.
+Solution: No solution. Used a different function to store the data of the game file, which requires us to include <bits/stdc++.h>, in order to use ofstream file() and ifstream file().
+
+12. Game over condition: Didn't know how/when to end the game.
+Solution: Added a function to check if the alien has died (checkAlienDied) which would see if the alien life is at zero, which makes the boolean value for isInGame false, thus the game would be over.

@@ -33,7 +33,7 @@ void oddNumbers(int &num)
     return;
 }
 
-// CHANGE SETTINGS
+// CHANGE GAME SETTINGS
 void changeSettings(int &row, int &col, int &zombie)
 {
     cout << "    Board Settings    " << endl;
@@ -301,7 +301,7 @@ void displayMap (vector<vector<char>>& map){  // PARAMETER map FOR 2D ARRAY MAP
         cout << "|" << endl;
     }
 
-    // INCREASE GAME BOARD LINES
+    // LINE
     cout << "  ";
     for (int j = 0; j < map[0].size(); j++)
     {
@@ -656,8 +656,7 @@ int main()
     cout << "Assignment (Part 2)" << endl;
     cout << "Let's Get Started!" << endl;
     cout << "~~~~~~~~~~~~~~~~~~" << endl;
-    // pf::Pause();
-    system("pause");
+    pf::Pause();
     system("cls");
 
     int row = 5; // DEFAULT BOARD ROWS
@@ -740,7 +739,7 @@ int main()
                 cout << "Enter Arrow Direction: ";
                 cin >> direction;
 
-                // BOARD START WITH 1
+                // BOARD STARTS WITH 1
                 arrowRow--;
                 arrowCol--;
 
@@ -817,7 +816,7 @@ int main()
                 cout << "Congratulations, You Have Won The Game!" << endl;
                 isInGame = false;
                 system("pause");
-                systen("cls");
+                system("cls");
             }
             else if (!isInGame) {
                 // ALIEN DIED
